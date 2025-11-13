@@ -20,6 +20,38 @@
 
 .postagens{
     display: flex;
-    justify-content: space-evenly;
-    
+
+}
+
+.item1 {
+    flex-direction: column;
+}
+
+.item1 > img {
+    width: 378px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.item2 {
+    flex-direction: column;
+}
+
+.item2 > img {
+    width: 378px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.item3 {
+
+}
+
+.data {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+img {
+    max-width: 100%;
 }
