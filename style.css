@@ -69,5 +69,9 @@ img {
     width: 110px;
     height: 80px;
     border-radius: 10px;
+    
+}
+
+.item4 {
     display: flex;
 }
