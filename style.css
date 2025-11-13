@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.container > button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.postagens{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
