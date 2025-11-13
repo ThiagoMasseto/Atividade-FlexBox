@@ -20,6 +20,7 @@
 
 .postagens{
     display: flex;
+    padding: 20px;
 
 }
 
@@ -52,6 +53,7 @@
     flex-direction: column;
     gap: 20px;
 
+
 }
 
 .data {
@@ -61,4 +63,11 @@
 }
 img {
     max-width: 100%;
+}
+
+.imagens {
+    width: 110px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
 }
